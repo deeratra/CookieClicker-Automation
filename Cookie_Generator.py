@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import re
 
-PATH = "D:\Deepankar\Coding beginners\Moment\chromedriver.exe"
+
+PATH = "D:\chromeDriver.exe" # add the path of the file
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option("useAutomationExtension", False)
